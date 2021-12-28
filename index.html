@@ -10,81 +10,73 @@
     <!-- partial:index.partial.html -->
     <div class="filter"></div>
     <div class="container-fluid">
-      <nav class="breadcrumb"> <a href="" class="breadcrumb-item"> <label>Region</label>
-          <span id="region"></span> </a> <a href="" class="breadcrumb-item"> <label>Country</label>
-          <span id="country"></span> </a> <a href="" class="breadcrumb-item">
-          <label>City</label> <span id="city"></span> </a> <a href="" class="breadcrumb-item">
-          <label>Time Zone</label> <span id="time-zone"></span> </a> <a href=""
-
-          class="breadcrumb-item"> <label>GeoPosition</label> <span id="geoposition"></span>
-        </a> </nav>
+      <div style="text-align: center;">
+        <nav class="breadcrumb"> <a href="" class="breadcrumb-item"> <label>Region</label>
+            <span id="region"></span> </a> <a href="" class="breadcrumb-item">
+            <label>Country</label> <span id="country"></span> </a> <a href=""
+            class="breadcrumb-item"> <label>City</label> <span id="city"></span>
+          </a> <a href="" class="breadcrumb-item"> <label>Time Zone</label> <span
+              id="time-zone"></span> </a> <a href="" class="breadcrumb-item">
+            <label>GeoPosition</label> <span id="geoposition"></span> </a> </nav>
+      </div>
       <div id="headline" class="jumbotron">
-        <p class="summary"> <span id="tag">Thunderstorm</span> - <span id="text">A
-            thundershower Tuesday afternoon</span></p>
-        <p class="period"> <label>from</label> <span id="begin">Monday, July
-            24</span> <label>to</label> <span id="end">Wednesday, July 26</span>
-        </p>
-        <div class="form-inline"> <a class="btn" href="#" id="refresh">Refresh</a>
-          <div class="form-group">
-            <div class="form-check form-check-inline"> <label class="form-check-label">
-                <input class="form-check-input" name="degree" id="degree-c" value="metric"
-
-                  checked="checked" type="radio"> C </label> </div>
-            <div class="form-check form-check-inline"> <label class="form-check-label">
-                <input class="form-check-input" name="degree" id="degree-f" value="imperial"
-
-                  type="radio"> F </label> </div>
-          </div>
+        <dl style="text-align: center;">
+          <dd> <span id="tag">Thunderstorm</span> - <span id="text">A
+              thundershower Tuesday afternoon</span></dd>
+          <dd> <br>
+          </dd>
+          <dd> <label>from</label> <span id="begin">Monday, July 24</span> <label>to</label>
+            <span id="end">Wednesday, July 26</span> </dd>
+          <dd> <a class="btn" href="#" id="refresh">Refresh</a> </dd>
+          <dd> <label class="form-check-label"> <input class="form-check-input"
+                name="degree" id="degree-c" value="metric" checked="checked" type="radio">
+              C </label> </dd>
+          <dd style="text-align: center;"> <label class="form-check-label"> <input
+                class="form-check-input" name="degree" id="degree-f" value="imperial"
+                type="radio"> F </label> </dd>
+        </dl>
+        <div class="form-inline">
+          <div class="form-group"> </div>
         </div>
       </div>
       <div id="forecast" class="card-group" style="display: none">
         <div class="card">
           <p class="weather-day">Monday July 24</p>
-          <img class="card-img-top" src="https://vortex.accuweather.com/adc2010/images/slate/icons/18.svg"
-
+          <img class="card-img-top" src="https://vortex.accuweather.com/adc2010/images/slate/icons/18.svg"
             alt="Card image cap">
-          <p class="weather-temp"> <span class="max-temp temp">32</span> <span
-
+          <p class="weather-temp"> <span class="max-temp temp">32</span> <span
               class="min-temp temp">22</span> <span class="degree">C</span> </p>
           <p class="weather-text">Partly sunny w/ t-storms</p>
           <a class="source" href="#">AccuWeather</a> </div>
         <div class="card">
           <p class="weather-day">Monday July 24</p>
-          <img class="card-img-top" src="https://vortex.accuweather.com/adc2010/images/slate/icons/18.svg"
-
+          <img class="card-img-top" src="https://vortex.accuweather.com/adc2010/images/slate/icons/18.svg"
             alt="Card image cap">
-          <p class="weather-temp"> <span class="max-temp temp">32</span> <span
-
+          <p class="weather-temp"> <span class="max-temp temp">32</span> <span
               class="min-temp temp">22</span> <span id="metric">C</span> </p>
           <p class="weather-text">Partly sunny w/ t-storms</p>
           <a class="source" href="#">AccuWeather</a> </div>
         <div class="card">
           <p class="weather-day">Monday July 24</p>
-          <img class="card-img-top" src="https://vortex.accuweather.com/adc2010/images/slate/icons/18.svg"
-
+          <img class="card-img-top" src="https://vortex.accuweather.com/adc2010/images/slate/icons/18.svg"
             alt="Card image cap">
-          <p class="weather-temp"> <span class="max-temp temp">32</span> <span
-
+          <p class="weather-temp"> <span class="max-temp temp">32</span> <span
               class="min-temp temp">22</span> <span id="metric">C</span> </p>
           <p class="weather-text">Partly sunny w/ t-storms</p>
           <a class="source" href="#">AccuWeather</a> </div>
         <div class="card">
           <p class="weather-day">Monday July 24</p>
-          <img class="card-img-top" src="https://vortex.accuweather.com/adc2010/images/slate/icons/18.svg"
-
+          <img class="card-img-top" src="https://vortex.accuweather.com/adc2010/images/slate/icons/18.svg"
             alt="Card image cap">
-          <p class="weather-temp"> <span class="max-temp temp">32</span> <span
-
+          <p class="weather-temp"> <span class="max-temp temp">32</span> <span
               class="min-temp temp">22</span> <span id="metric">C</span> </p>
           <p class="weather-text">Partly sunny w/ t-storms</p>
           <a class="source" href="#">AccuWeather</a> </div>
         <div class="card">
           <p class="weather-day">Monday July 24</p>
-          <img class="card-img-top" src="https://vortex.accuweather.com/adc2010/images/slate/icons/18.svg"
-
+          <img class="card-img-top" src="https://vortex.accuweather.com/adc2010/images/slate/icons/18.svg"
             alt="Card image cap">
-          <p class="weather-temp"> <span class="max-temp temp">32</span> <span
-
+          <p class="weather-temp"> <span class="max-temp temp">32</span> <span
               class="min-temp temp">22</span> <span id="metric">C</span> </p>
           <p class="weather-text">Partly sunny w/ t-storms</p>
           <a class="source" href="#">AccuWeather</a> </div>
